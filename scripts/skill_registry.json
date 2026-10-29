@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "skills": [
+    {
+      "name": "build-linux-note-topic",
+      "source": "skills/build-linux-note-topic",
+      "mirror": "codex_home/skills/build-linux-note-topic",
+      "direction": "repository_to_codex"
+    },
+    {
+      "name": "build-technical-ppt",
+      "source": "skills/build-technical-ppt",
+      "mirror": "codex_home/skills/build-technical-ppt",
+      "direction": "repository_to_codex"
+    },
+    {
+      "name": "develop-loop-desktop",
+      "source": "skills/develop-loop-desktop",
+      "mirror": "codex_home/skills/develop-loop-desktop",
+      "direction": "repository_to_codex"
+    },
+    {
+      "name": "develop-typora-code",
+      "source": "skills/develop-typora-code",
+      "mirror": "codex_home/skills/develop-typora-code",
+      "direction": "repository_to_codex"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Loop Desktop"
+  short_description: "Review and build the Loop Electron C++ Markdown workstation"
+  default_prompt: "Use $develop-loop-desktop to continue the next reviewed Loop desktop milestone."
