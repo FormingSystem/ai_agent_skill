@@ -5,6 +5,10 @@ description: "制作、重写、拆分和修复面向初学者的技术教程 PP
 
 # 技术教程 PPT 制作
 
+**简体中文** | [English](SKILL_en.md)
+
+For English-language tasks, follow [the English instructions](SKILL_en.md) and their English references. Respond in the language requested by the user.
+
 让读者通过 PPT 理解关系、跟随演示并复习，通过配套 Markdown 独立完成实验。读者有编程基础，也可能初次接触当前专题。不能用变量表、命令堆积、术语清单或官方链接代替讲解。
 
 本技能归纳用户在 Zephyr 教程中反复确认的制作要求。以用户当前指令和最新保存的文稿为准；项目专用事实不推广为所有项目的规定。不把技能变成额外审批环节，也不因规则很多而只交付规范、样章或检查报告。

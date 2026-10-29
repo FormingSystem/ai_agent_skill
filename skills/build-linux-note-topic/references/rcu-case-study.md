@@ -1,5 +1,7 @@
 # RCU 案例：可复用的设计决策
 
+**简体中文** | [English](rcu-case-study_en.md)
+
 把仓库中的 RCU 专题作为方法的具体案例，而不是机械复制的模板。它的权威入口是 `knowledge/linux/synchronization_and_asynchrony/synchronization/rcu/大纲.md`。
 
 ## 目录

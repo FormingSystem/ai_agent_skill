@@ -5,6 +5,10 @@ description: 在 typora_code 独立工程中开发、修复、重构或验收 Ty
 
 # TyporaCode 开发
 
+**简体中文** | [English](SKILL_en.md)
+
+For English-language tasks, follow [the English instructions](SKILL_en.md) and their English references. Respond in the language requested by the user.
+
 以当前用户需求和当前产品边界为准。保留可复用的 Typora 原生能力，补齐被明确要求的功能；对照 VS Code 不等于移植全部工作台。让后续消息补充既有需求，不冲掉尚未解决的问题。
 
 ## 找到正确工程与状态

@@ -10,6 +10,8 @@ from urllib.parse import unquote, urlsplit
 
 import yaml
 
+from check_translations import check_translations
+
 
 def front_matter(path):
     text = path.read_text(encoding="utf-8-sig")
@@ -107,6 +109,9 @@ def check_repository(root):
                     errors.append(f"标题锚点不存在：{relative} -> {link}")
         if re.search(r"^(<<<<<<< |=======\s*$|>>>>>>> )", text, re.M):
             errors.append(f"存在冲突标记：{relative}")
+    errors.extend(check_translations(root, {
+        name for name in files if name.endswith(".md") and (root / name).is_file()
+    }))
     return errors
 
 

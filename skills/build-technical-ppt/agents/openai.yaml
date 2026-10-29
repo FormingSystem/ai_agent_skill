@@ -1,4 +1,4 @@
 interface:
-  display_name: "技术教程 PPT 制作"
-  short_description: "面向初学者制作技术教程演示文稿，同步正文、图示、语义配色与原生验收"
-  default_prompt: "使用 $build-technical-ppt 制作或修复当前技术教程 PPT，按初学者理解顺序讲清依据、操作和结果，并同步配套 Markdown。"
+  display_name: "技术教程 PPT / Technical tutorials"
+  short_description: "技术教程演示与配套正文 / Technical slides and companion text"
+  default_prompt: "使用 $build-technical-ppt 制作或修复当前技术教程 PPT，按初学者理解顺序讲清依据、操作和结果，并同步配套 Markdown。 Use $build-technical-ppt to create or revise a technical tutorial deck and its companion Markdown in the requested language."

@@ -1,5 +1,7 @@
 # 仓库 AI 专题要求提炼
 
+**简体中文** | [English](repository-topic-requirements_en.md)
+
 ## 目录
 
 - [来源与优先级](#1-来源与优先级)

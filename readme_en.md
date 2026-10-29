@@ -43,14 +43,16 @@ python scripts/sync_skills.py check
 
 | Skill | Purpose |
 | --- | --- |
-| [build-linux-note-topic](skills/build-linux-note-topic/SKILL.md) | Write, restructure, format, and audit technical books and knowledge topics. |
-| [build-technical-ppt](skills/build-technical-ppt/SKILL.md) | Create and revise technical tutorial presentations and companion Markdown. |
-| [develop-loop-desktop](skills/develop-loop-desktop/SKILL.md) | Develop the Loop desktop workstation. |
-| [develop-typora-code](skills/develop-typora-code/SKILL.md) | Develop the standalone TyporaCode project. |
+| [build-linux-note-topic](skills/build-linux-note-topic/SKILL_en.md) | Write, restructure, format, and audit technical books and knowledge topics. |
+| [build-technical-ppt](skills/build-technical-ppt/SKILL_en.md) | Create and revise technical tutorial presentations and companion Markdown. |
+| [develop-loop-desktop](skills/develop-loop-desktop/SKILL_en.md) | Develop the Loop desktop workstation. |
+| [develop-typora-code](skills/develop-typora-code/SKILL_en.md) | Develop the standalone TyporaCode project. |
 
 Project-specific skills require their target projects and dependencies. Recheck environment hints against the directory the user has actually selected.
 
-The repository guides are available in Chinese and English. Skill runtime instructions and detailed references retain their original language, mostly Chinese; the linked skill files are not full English translations. There is one executable skill package per name. Reading translations do not create additional runtime registrations.
+Repository guides, all skill instructions, and all reference documents have Chinese and English bodies, with a language switch on every page. Chinese navigation stays in Chinese and English navigation stays in English. Shared scripts, identifiers, command arguments, original paths, and third-party materials keep their actual names; there is only one runtime implementation. The skill entry routes to instructions in the user's language, and translations are synchronized with the skill.
+
+`scripts/translation_registry.json` records bilingual coverage and content hashes. Repository checks reject missing translations, stale hashes, missing language switches, and incorrect cross-language navigation. After reviewing both versions of a changed page, run `python scripts/update_translation_registry.py --reviewed <Chinese-file-path>` to record the reviewed hashes. This command does not translate text or prove semantic equivalence.
 
 ## 1.3\_Maintenance
 

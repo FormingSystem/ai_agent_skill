@@ -5,6 +5,10 @@ description: 在 linux-note 中创建、扩写、重写、重组或排版技术�
 
 # 构建 linux-note 技术书籍与专题
 
+**简体中文** | [English](SKILL_en.md)
+
+For English-language tasks, follow [the English instructions](SKILL_en.md) and their English references. Respond in the language requested by the user.
+
 构建可长期维护、可验证并能支持继续推理的知识体系，而不是一次性长回答。默认读者尚未掌握本专题的缩写、源码黑话、实现家族名和项目私有命名；先让读者获得进入概念所需的语言，再按认知路径组织材料。始终区分稳定知识、带版本的源码证据、实验、平台差异和导航。
 
 ## 以讲清楚为完成条件

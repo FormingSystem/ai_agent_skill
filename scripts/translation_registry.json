@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "pairs": [
+    {
+      "zh": "skills/build-linux-note-topic/references/concept_implementation_mapping.md",
+      "en": "skills/build-linux-note-topic/references/concept_implementation_mapping_en.md",
+      "zh_sha256": "3ed6d8808f596ddab4bad02bbfd86ffdc8b3ec61ea032cf23d7a9f7fdf9a9f55",
+      "en_sha256": "4766669bac8a82c1e7279cbaa6170ea75a23220005a8d1aadeeb857a63d86f5d"
+    },
+    {
+      "zh": "skills/build-linux-note-topic/references/delivery_validation.md",
+      "en": "skills/build-linux-note-topic/references/delivery_validation_en.md",
+      "zh_sha256": "90ccdac962da9c5c863dc7b621b87f646f4ab199308a05ec9ca86786214b7fe7",
+      "en_sha256": "63383c8d88cf70775e23dee8f17b6a605408c1c263d46d5c9b846a550075f1cc"
+    },
+    {
+      "zh": "skills/build-linux-note-topic/references/explanation-quality.md",
+      "en": "skills/build-linux-note-topic/references/explanation-quality_en.md",
+      "zh_sha256": "e33df4c90617cf73475ce95249bdc646a5bc94e4187835063a161c4da9b6db34",
+      "en_sha256": "6d7fd46e366dc2e5ae3f7853b094a26b652065425e2ff93f9bd67cb240ff16dc"
+    },
+    {
+      "zh": "skills/build-linux-note-topic/references/lockdep-case-study.md",
+      "en": "skills/build-linux-note-topic/references/lockdep-case-study_en.md",
+      "zh_sha256": "56c2668f2036e3e67f8134e1a8bf73d8e986f40ee5a49f890d107ee5b2a728c7",
+      "en_sha256": "294c92c8a1a38dda924cea720f6da7c9702a904bb619f4285195b2c738b3ae03"
+    },
+    {
+      "zh": "skills/build-linux-note-topic/references/mechanism-reasoning.md",
+      "en": "skills/build-linux-note-topic/references/mechanism-reasoning_en.md",
+      "zh_sha256": "1f27a365176bfde035d1e8277c5d5626e1ff79bea2dad822c33fbdc909b840a0",
+      "en_sha256": "6b4225ceb8d2e6d03891fec421585401befac4a968ed2f155d0f1cde31450886"
+    },
+    {
+      "zh": "skills/build-linux-note-topic/references/official_source_reading.md",
+      "en": "skills/build-linux-note-topic/references/official_source_reading_en.md",
+      "zh_sha256": "86106c4b5cb153f88abe40a3383b6b5f8bce0f5a5e7554c80b9010c3729e2827",
+      "en_sha256": "7a2d6c717723abf55a24fd59e3c88a9611ea6fa308a3e6dc816480887f291c51"
+    },
+    {
+      "zh": "skills/build-linux-note-topic/references/rcu-case-study.md",
+      "en": "skills/build-linux-note-topic/references/rcu-case-study_en.md",
+      "zh_sha256": "9852a067f402c59a2aa78914410006f51ee855f07a8b08c61e6141c80a449156",
+      "en_sha256": "ca07ed4a07e984c099d43042aa73368157680b50894f2326d3f30590dee01c67"
+    },
+    {
+      "zh": "skills/build-linux-note-topic/references/reader_continuity_review.md",
+      "en": "skills/build-linux-note-topic/references/reader_continuity_review_en.md",
+      "zh_sha256": "250aae4029bf090506500fb1cf842996569e0ec375ec46f9308713bad3b7c5ca",
+      "en_sha256": "81c32a63e698635a5435ab2344df7f0ff050b53372f484cc41cceac997416d07"
+    },
+    {
+      "zh": "skills/build-linux-note-topic/references/reader_first_writing.md",
+      "en": "skills/build-linux-note-topic/references/reader_first_writing_en.md",
+      "zh_sha256": "e778dc193d131065fef1d9c1c7fbb55ee15f07f6e440b70bf8536e04cd8dca06",
+      "en_sha256": "7334d75ae8fadfdf111b01072540c4932693546593ba02ac0774d37bae852dc1"
+    },
+    {
+      "zh": "skills/build-linux-note-topic/references/repository-topic-requirements.md",
+      "en": "skills/build-linux-note-topic/references/repository-topic-requirements_en.md",
+      "zh_sha256": "593f364e7014bdd0c99723afde7c757fe7a2394361cddcb99bc02e368fcfd8bc",
+      "en_sha256": "87f0e238e0741efde2111e007c8347edf0275244098888ac4ee4c40050ed10a4"
+    },
+    {
+      "zh": "skills/build-linux-note-topic/references/review-checklist.md",
+      "en": "skills/build-linux-note-topic/references/review-checklist_en.md",
+      "zh_sha256": "323f06e359c851e8ff7970b64eaf7d72d2f99a2b76c992f57d5eb1d294c6e65d",
+      "en_sha256": "d6d1d683c7d444dee20fda4f9efb5da04e097cb3a2486715a23cb88e8da37276"
+    },
+    {
+      "zh": "skills/build-linux-note-topic/references/source-evidence.md",
+      "en": "skills/build-linux-note-topic/references/source-evidence_en.md",
+      "zh_sha256": "8bec4308d111cf102436c39bd3e5281b91802872d2164f43e4de72179a574f95",
+      "en_sha256": "2b7011812fc0404dc236abbd65cd96e03c0a5c55d032652f747459123c62c599"
+    },
+    {
+      "zh": "skills/build-linux-note-topic/references/source_documentation_workflow.md",
+      "en": "skills/build-linux-note-topic/references/source_documentation_workflow_en.md",
+      "zh_sha256": "14f75be04427ae3b36809cfdcaf37b0bd53ac1844c21f1ec822e73d9b1e94478",
+      "en_sha256": "440a36befcba659559c52409a75a7d1053288bc795547ace6cbfb22bdbabae07"
+    },
+    {
+      "zh": "skills/build-linux-note-topic/references/topic-design.md",
+      "en": "skills/build-linux-note-topic/references/topic-design_en.md",
+      "zh_sha256": "cecd1ead1d922e069e3e5f12ab87194f10c55faf23ad51a5ac1991205b3439ef",
+      "en_sha256": "ea524bcb3eb7e0b16b9b04da34ed5014f344ba22f84638aa61ce963d2d05b316"
+    },
+    {
+      "zh": "skills/build-linux-note-topic/SKILL.md",
+      "en": "skills/build-linux-note-topic/SKILL_en.md",
+      "zh_sha256": "5584863a0267115f1f95bdb60357982cc11792558021c102d075f062c32a4208",
+      "en_sha256": "89091173be02fa077f36cf0e33b31cd649e9ac86b9e55379e3d61bd43dc7408c"
+    },
+    {
+      "zh": "skills/build-technical-ppt/references/revision-and-delivery.md",
+      "en": "skills/build-technical-ppt/references/revision-and-delivery_en.md",
+      "zh_sha256": "98be843ed5313c5e67dc76dfb170d6475342ae58a1a0cc839816ca97850ac31a",
+      "en_sha256": "e6685e1cca9aee562c6a60a62b1a1b8cedae561a537fe8765c117af7ce26b54b"
+    },
+    {
+      "zh": "skills/build-technical-ppt/references/teaching-and-evidence.md",
+      "en": "skills/build-technical-ppt/references/teaching-and-evidence_en.md",
+      "zh_sha256": "9876cbfd712988f677e1b9c74e303aa1c05e8e22e56e984b3bc74daa97e4c43a",
+      "en_sha256": "d3e17e5d8f0e481eacaa112295357bcab5db670d9e9a4801486ce7d7f8b03804"
+    },
+    {
+      "zh": "skills/build-technical-ppt/references/visual-language.md",
+      "en": "skills/build-technical-ppt/references/visual-language_en.md",
+      "zh_sha256": "a843a6e2ed68076518b29265dea5babe923cfbab31496698fcc09028be01b131",
+      "en_sha256": "91e9490deb77ff2d97ad964449f1d507b821da9d03a2ea71abcc59c70462ad5f"
+    },
+    {
+      "zh": "skills/build-technical-ppt/references/zephyr-profile.md",
+      "en": "skills/build-technical-ppt/references/zephyr-profile_en.md",
+      "zh_sha256": "5e68379e423965d9c5bd7874949616f85777c4b908bb95570de970cd495c8029",
+      "en_sha256": "d0283f2ea89bb48533f3af70b699d8e2de6f2136a6293090e24b05cee87cbc22"
+    },
+    {
+      "zh": "skills/build-technical-ppt/SKILL.md",
+      "en": "skills/build-technical-ppt/SKILL_en.md",
+      "zh_sha256": "d00e7a6729366ed86139d4deb2752d993baeadb96f4c274cca4d6367fc1ac942",
+      "en_sha256": "912260db02e257cd9952479ad2850d2320ef2b518e0f278d656932933c5cf6b9"
+    },
+    {
+      "zh": "skills/develop-loop-desktop/SKILL.md",
+      "en": "skills/develop-loop-desktop/SKILL_en.md",
+      "zh_sha256": "7e01b8f6e1886d2a91886c1d2c227a82abb5e08ea48bf9d0a0e5207bb7632b38",
+      "en_sha256": "557a513b6eda6c19188c40c9abd5ed9cdbf463d83df9afa4498b465825101f33"
+    },
+    {
+      "zh": "skills/develop-typora-code/SKILL.md",
+      "en": "skills/develop-typora-code/SKILL_en.md",
+      "zh_sha256": "0c50e594cf170cc1f16900d4c3845a3417ef61253257a80aca15956464aca1d6",
+      "en_sha256": "2935158dc6753d6a231561646efbea8d5a59347bcdf7001b1adaa216cebab25c"
+    },
+    {
+      "zh": "README.md",
+      "en": "readme_en.md",
+      "zh_sha256": "69935eee1ad0871540e06c9c18d8b98da7b97c74239dbb3e5714f037cbcbf800",
+      "en_sha256": "9308dc07a0220b5563010fad9b1f5f4c5509046b51e8428f73c3caacbb1fd0c5"
+    },
+    {
+      "zh": "AGENTS.md",
+      "en": "agents_en.md",
+      "zh_sha256": "44aea47089a368d8294a98098706ac1d1624b5538a925ce7b013fca548455a16",
+      "en_sha256": "13e728229dad927e782d688b120af6e50ca618d9ed7b54dcd3e7b849d9693e93"
+    },
+    {
+      "zh": "CONTRIBUTING.md",
+      "en": "contributing_en.md",
+      "zh_sha256": "2298e4474b5479b4b8a009bf97e7f35135d72c7ece73abca161a9d8a5c7bc502",
+      "en_sha256": "6b7a96cc59de128292648dc8a3e6c8477975f8d3897a516ca70abf22d6b46a49"
+    },
+    {
+      "zh": "governance/architecture/repository_information_architecture.md",
+      "en": "governance/architecture/repository_information_architecture_en.md",
+      "zh_sha256": "b3bb0acbbb65b9fc5911cfd4011dad0acd26a0acb7ea4235ae64eddd86ab0646",
+      "en_sha256": "bd6336c1d4b6a3d901ea223376302d5d7be52dbaad7a568e5e8ec99c9a418999"
+    },
+    {
+      "zh": "governance/conventions/git_guide.md",
+      "en": "governance/conventions/git_guide_en.md",
+      "zh_sha256": "17420babf72cb7a72e6ce45bacd28bd08264e5cbbf45e7ecbf5300bfd4bce8ef",
+      "en_sha256": "532f4c076bb0521425c5d0b5fb0d5e55a11f4645f167113f2283159d8a858d16"
+    }
+  ]
+}
