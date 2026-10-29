@@ -1,6 +1,6 @@
 # 内核机制推理闭环
 
-**简体中文** | [English](mechanism-reasoning_en.md)
+> **语言 / Language** · **简体中文（当前）** · [English →](mechanism-reasoning_en.md)
 
 ## 目录
 
@@ -234,3 +234,7 @@
 10. 抽象结论在源码、配置和实验中分别由什么证据支撑；
 11. 哪些成本被移除、转移或新增；
 12. 什么条件下应继续使用原方案或选择替代机制。
+
+---
+
+> **语言 / Language** · **简体中文（当前）** · [English →](mechanism-reasoning_en.md)

@@ -1,6 +1,6 @@
 # 重构、验证与交付
 
-**简体中文** | [English](delivery_validation_en.md)
+> **语言 / Language** · **简体中文（当前）** · [English →](delivery_validation_en.md)
 
 本技能的每项任务交付前都必须完整阅读并执行本文件。路径调整、仅排版守恒、源码哈希、构建与实验仍按各条明确的适用条件执行；未触发的条件不额外扩大任务。
 
@@ -76,3 +76,7 @@ python <skill-dir>/scripts/audit_content_conservation.py <topic-directory> --rep
 - 是否进行了暂存或提交。
 
 最终回复应短于专题本身。链接到大纲和少量代表性文件，不要罗列每个修改文件。
+
+---
+
+> **语言 / Language** · **简体中文（当前）** · [English →](delivery_validation_en.md)

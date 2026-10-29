@@ -1,6 +1,6 @@
 # Kernel source code evidence reference
 
-[简体中文](source-evidence.md) | **English**
+> **Language / 语言** · [← 简体中文](source-evidence.md) · **English (current)**
 
 ## 1. Establish a baseline
 
@@ -195,3 +195,7 @@ When the topic involves Lockdep, KCSAN, debug objects, sanitizers, assertions, o
 6. There is no configuration, checker validity, event access, and path coverage on which the alarm conclusion depends.
 
 When the same checker is reused by multiple subsystems, the checker core status and query implementation are uniquely expanded in the checker source code topic; the subsystem only expands its own virtual identity, adaptation macros and calling conditions, and uses Typora precise title anchor links in both directions.
+
+---
+
+> **Language / 语言** · [← 简体中文](source-evidence.md) · **English (current)**

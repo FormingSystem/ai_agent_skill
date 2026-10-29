@@ -1,0 +1,4 @@
+interface:
+  display_name: "双语仓库维护 / Bilingual repositories"
+  short_description: "全文双语与语言切换 / Bilingual content and navigation"
+  default_prompt: "使用 $maintain-bilingual-repository 补齐仓库中英文正文、逐页切换和语言内链接，并验证同步。 Use $maintain-bilingual-repository to complete and validate bilingual content and navigation."

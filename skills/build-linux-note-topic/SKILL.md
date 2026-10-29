@@ -5,7 +5,7 @@ description: 在 linux-note 中创建、扩写、重写、重组或排版技术�
 
 # 构建 linux-note 技术书籍与专题
 
-**简体中文** | [English](SKILL_en.md)
+> **语言 / Language** · **简体中文（当前）** · [English →](SKILL_en.md)
 
 For English-language tasks, follow [the English instructions](SKILL_en.md) and their English references. Respond in the language requested by the user.
 
@@ -268,3 +268,7 @@ Mermaid 换行使用 `<br/>`，不得使用 `\n`。
 ## 重构、验证与交付
 
 本技能的每项任务交付前都必须完整阅读并执行 [重构、验证与交付](references/delivery_validation.md)，按授权保存基线、完整迁移内容、同步真实调用方，运行长度、结构、连续阅读与术语审计及适用的内容守恒检查。脚本报告须人工裁决，不能代替冷读；准确报告已执行与未执行的验证。编辑使用 `apply_patch`，未经用户明确要求不得暂存或提交。
+
+---
+
+> **语言 / Language** · **简体中文（当前）** · [English →](SKILL_en.md)

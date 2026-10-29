@@ -1,6 +1,6 @@
 # Explain writing methods and readers’ understanding and acceptance
 
-[简体中文](explanation-quality.md) | **English**
+> **Language / 语言** · [← 简体中文](explanation-quality.md) · **English (current)**
 
 This reference is used to newly write, supplement or rewrite the technical teaching text, especially to deal with the feedback of "obscure", "like an outline" and "only teaches copy commands". Pure typesetting tasks still comply with the existing content protection scope.
 
@@ -203,3 +203,7 @@ Point out specific and effective writing methods from the sample chapters: where
 During calibration, the technology is judged to be correct, the experiment can be run, the readers understand and the reading experience is judged respectively. Check that there is reasonable progression between paragraphs, that explanations are restarted repeatedly, that readers can discern current emphasis, that humor interrupts reasoning, and that exercises have fair clues. The modification of the length is based on the reading task: the reasons that should be supplemented are supplemented, and the details that should be moved are moved later; the number of words or the complete rules are not used as proof of quality.
 
 If there are no real users to try it out, it will be marked as self-check by the author. When there is a complete task authorization, proceed after self-examination and verification, and do not turn the sample chapter into a process that must wait for confirmation; users provide feedback and make subsequent corrections accordingly. The final delivery is still completed within the scope of the user's request, and subsequent outlining or unfinished content cannot be covered up with a good-looking sample chapter.
+
+---
+
+> **Language / 语言** · [← 简体中文](explanation-quality.md) · **English (current)**

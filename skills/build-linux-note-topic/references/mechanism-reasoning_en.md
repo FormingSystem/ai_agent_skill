@@ -1,6 +1,6 @@
 # Kernel mechanism reasoning closed loop
 
-[简体中文](mechanism-reasoning.md) | **English**
+> **Language / 语言** · [← 简体中文](mechanism-reasoning.md) · **English (current)**
 
 ## Contents
 
@@ -234,3 +234,7 @@ By the time the topic is completed, readers should be able to answer:
 10. What evidence supports the abstract conclusion in source code, configuration and experiments?
 11. what costs were removed, transferred, or added;
 12. Under what conditions should the original solution continue to be used or an alternative mechanism should be selected.
+
+---
+
+> **Language / 语言** · [← 简体中文](mechanism-reasoning.md) · **English (current)**

@@ -1,6 +1,6 @@
 # Zephyr + UCRT64 教程项目约定
 
-**简体中文** | [English](zephyr-profile_en.md)
+> **语言 / Language** · **简体中文（当前）** · [English →](zephyr-profile_en.md)
 
 只在维护用户这套 Zephyr 教程时使用。依据为本会话最终决定及 2026-10-07 核对的仓库文档，使用时仍读取当前 AGENTS.md 与专题说明。以下路径、版本与期号是项目约定，不是其他 PPT 的默认值，也不是永久有效的上游事实。
 
@@ -84,3 +84,7 @@ Minimal 自带 SDK CMake 接入文件，仅缺目标工具链；独立工具链�
 若当前入口仍存在，PPT 保存后使用 `slides/build.py --deck <当前章号> sync` 同步原生源，再 `build --output <候选文件>` 重建并逐 ZIP 部件比较。先读取实际脚本帮助与 README，不把尖括号占位命令展示成可直接复制的读者实验。
 
 资料检查为 `learning/check_docs.py`，PPT 原生结构检查为 `slides/test_build.py`。它们与 PowerPoint 渲染、内容冷读分别验收。按项目 AGENTS.md 更新专题 VALIDATION.md 和 `project-docs/porting-status.md`，明确本轮是否真正配置、编译或操作硬件。
+
+---
+
+> **语言 / Language** · **简体中文（当前）** · [English →](zephyr-profile_en.md)

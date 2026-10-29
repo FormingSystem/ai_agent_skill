@@ -1,6 +1,6 @@
 # Refactor, verify and deliver
 
-[简体中文](delivery_validation.md) | **English**
+> **Language / 语言** · [← 简体中文](delivery_validation.md) · **English (current)**
 
 This document must be read and executed in its entirety before each assignment in this skill is delivered. Path adjustment, content preservation in layout-only edits only, source code hashing, construction and experimentation are still performed according to each clear applicable condition; no additional tasks will be expanded for conditions that are not triggered.
 
@@ -76,3 +76,7 @@ Report:
 - Whether staged or committed.
 
 The final response should be shorter than the topic itself. Link to an outline and a few representative files, rather than listing every modified file.
+
+---
+
+> **Language / 语言** · [← 简体中文](delivery_validation.md) · **English (current)**

@@ -1,6 +1,6 @@
 # Source code reading organization and implementation explanation
 
-[简体中文](source_documentation_workflow.md) | **English**
+> **Language / 语言** · [← 简体中文](source_documentation_workflow.md) · **English (current)**
 
 When using versioned source code evidence in the body of knowledge, or when creating, modifying, organizing, or reviewing source code concept introductions and implementation explanations for tasks, you must read this document in its entirety and execute the [Source Code Evidence Specification](source-evidence_en.md) at the same time. The versioning responsibilities here do not extend authorization to modify other texts or external source trees.
 
@@ -68,3 +68,7 @@ The source code implementation explanation provides at least a diagram that can 
 Each implementation cluster adds a modifiability description after "Implementation Principle" to answer: What invariants does the current code depend on, where is the minimum safe modification point, and which configuration branches, call points, exception paths, pairing actions, and observable verification must be checked synchronously after changes. Only when readers can trace from declaration to definition, from initialization to consumption, from normal path to degradation/rollback path, and can predict the scope of influence of a local modification, the source code explanation is complete.
 
 The external kernel source tree must not be modified. When the source tree is unavailable, source code verification is clearly marked as incomplete and details must not be reconstructed from memory. Old version differences must be localized to precise field or call chain boundaries, and vague compatibility conclusions must not be used.
+
+---
+
+> **Language / 语言** · [← 简体中文](source_documentation_workflow.md) · **English (current)**

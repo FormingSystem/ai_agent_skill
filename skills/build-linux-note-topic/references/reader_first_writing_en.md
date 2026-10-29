@@ -1,6 +1,6 @@
 # Text entry, terminology and continuous reading access control
 
-[简体中文](reader_first_writing.md) | **English**
+> **Language / 语言** · [← 简体中文](reader_first_writing.md) · **English (current)**
 
 This document must be read in its entirety before designing, reorganizing, creating, expanding, or rewriting a topic, and reviewed against it before delivering it chapter by chapter. Only the typesetting task still obeys the authorization boundary of the main entrance, and technical content is not rewritten by discovering teaching gaps.
 
@@ -86,3 +86,7 @@ When multiple unfamiliar words need to be introduced in the same section, first 
 Topic project-specific naming must also explain the naming subject and scope: who defined the name, does it refer to a concept or a version of an object/state/implementation, where is the state saved and who owns it, and what is its relationship to the general concept. Seemingly ordinary English words such as tree, tiny, tasks, flavor, debt, and epoch, once they acquire special meanings within the topic, are treated as proper nouns, and readers cannot be relied on to guess the meaning.
 
 Only after term dependencies have been cleared can type comparisons, causal deductions, source code chains, or configuration matrices begin. During delivery, names in titles, tables, figures and codes are randomly selected for independent reading review testing: readers should be able to tell the Chinese and English names or the nature of the name, its type, current responsibilities, boundaries and precise in-depth entry without searching for external information. Automatic auditing can only find candidate words and obvious first-occurrence risks, and cannot replace this manual judgment.
+
+---
+
+> **Language / 语言** · [← 简体中文](reader_first_writing.md) · **English (current)**

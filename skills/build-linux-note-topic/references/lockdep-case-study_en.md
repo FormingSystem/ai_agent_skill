@@ -1,6 +1,6 @@
 # Lockdep case: state layering of dynamic verification mechanism
 
-[简体中文](lockdep-case-study.md) | **English**
+> **Language / 语言** · [← 简体中文](lockdep-case-study.md) · **English (current)**
 
 This case comes from the independent Lockdep topic of the repository: the stable entrance is `knowledge/linux/synchronization_and_asynchrony/synchronization/lockdep/大纲.md`, and the version source-code entry point is `research/source_reading/lockdep/navigation/P01_Linux_6.12_Lockdep源码导读.md`. It complements the less expanded **Dynamic Checker** writing approach in RCU cases and does not require all topics to fork Lockdep's file count or fields.
 
@@ -111,3 +111,7 @@ When synchronizing the full amount of information in the Lockdep topic, it is ne
 - [ ] No warning conclusion also records enabled status, checker validity and coverage.
 - [ ] The checking mechanism is not written as a functional guarantee, and the functional contract does not disappear when checking is turned off.
 - [ ] There is only one authoritative explanation title for the specific source code implementation across topics, and Typora is used for precise anchor point inter-linking.
+
+---
+
+> **Language / 语言** · [← 简体中文](lockdep-case-study.md) · **English (current)**

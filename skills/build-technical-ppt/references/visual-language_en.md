@@ -1,6 +1,6 @@
 # Illustrations, colors, covers and footers
 
-[简体中文](visual-language.md) | **English**
+> **Language / 语言** · [← 简体中文](visual-language.md) · **English (current)**
 
 ## Keep existing designs
 
@@ -71,3 +71,7 @@ The existing dimensions of the 1280 × 720 personal series can be used as a refe
 - Only turn off the spelling check for signatures; distinguish red spelling wavy lines, shape edges, and screenshot manual marks first. You cannot turn off full text proofreading or delete user comments by mistake for signatures.
 
 Watermarks explicitly requested by other authors, other brands, and users are retained according to their templates and are not automatically added lizhaojun.
+
+---
+
+> **Language / 语言** · [← 简体中文](visual-language.md) · **English (current)**

@@ -9,7 +9,7 @@ domains:
 
 # 第1章\_技能仓库信息架构
 
-**简体中文** | [English](repository_information_architecture_en.md)
+> **语言 / Language** · **简体中文（当前）** · [English →](repository_information_architecture_en.md)
 
 ## 1.1\_按职责保存唯一来源
 
@@ -41,3 +41,7 @@ domains:
 ## 1.4\_语言视图
 
 中文仓库指南及其 `_en.md` 英文译文表达同一套要求。译文使用独立稳定 ID，通过 `translation_of` 标明原文 ID；双向提供语言入口，指令与命令变化时同步更新。技能运行文件仍统一保存在 `skills/`，每个技能只有一个注册项，阅读译文不另建可执行副本。技能主指令与所有参考文档同样提供配对正文；中文入口使用 `SKILL.md`，英文阅读入口使用 `SKILL_en.md`。共用脚本和代理配置只维护一份，界面说明使用中英文；译文随包同步。翻译台账记录所有页面对及复核后的摘要，检查范围覆盖全仓 Markdown 与语言内导航。
+
+---
+
+> **语言 / Language** · **简体中文（当前）** · [English →](repository_information_architecture_en.md)

@@ -5,7 +5,7 @@ description: "制作、重写、拆分和修复面向初学者的技术教程 PP
 
 # 技术教程 PPT 制作
 
-**简体中文** | [English](SKILL_en.md)
+> **语言 / Language** · **简体中文（当前）** · [English →](SKILL_en.md)
 
 For English-language tasks, follow [the English instructions](SKILL_en.md) and their English references. Respond in the language requested by the user.
 
@@ -58,3 +58,7 @@ For English-language tasks, follow [the English instructions](SKILL_en.md) and t
 正式文件、配套 MD、备注、导航、命令材料和重建源按本次影响范围同步。导出有效不等于 PowerPoint 无修复提示，渲染成功不等于实验通过，旧构建日志不等于本轮实测。说明真实验证范围，不以自动检查代替逐页阅读。
 
 遇到全局反馈，落实到所有受影响正式材料；不能只修改规则或对话回复。相同问题再次出现时检查本轮执行和验收遗漏，不把既有规则缺乏执行归咎于技能。
+
+---
+
+> **语言 / Language** · **简体中文（当前）** · [English →](SKILL_en.md)

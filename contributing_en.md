@@ -10,7 +10,7 @@ translation_of: contributing
 
 # Chapter 1\_Contribution_and_acceptance_workflow
 
-[简体中文](CONTRIBUTING.md) | **English**
+> **Language / 语言** · [← 简体中文](CONTRIBUTING.md) · **English (current)**
 
 Read the [repository instructions](agents_en.md) and [Git rules](governance/conventions/git_guide_en.md). After cloning, run `python scripts/setup_repository.py` from the repository root. It configures only this repository's hooks, commit template, and fast-forward pull policy.
 
@@ -21,3 +21,7 @@ Before committing, run the checks in the README and inspect the staged diff. Cha
 When moving or deleting files, update all references and registry entries. Revert published commits instead of rewriting history. Write accurate Chinese commit results and meaningful bullet details. Do not commit credentials or generated caches.
 
 Update paired Chinese and English repository guides in the same change, including commands, behavior boundaries, and navigation. Give translations a unique document ID and a `translation_of` field pointing to the source document's ID. Translations are reading views of the same policy; they must not introduce independent rules or register duplicate skills. Add or change skill instructions, references, and reading entry points in both languages together, and register them in `scripts/translation_registry.json`. Review the content first, then run `python scripts/update_translation_registry.py --reviewed <Chinese-file-path>` to update hashes. This does not replace semantic review.
+
+---
+
+> **Language / 语言** · [← 简体中文](CONTRIBUTING.md) · **English (current)**

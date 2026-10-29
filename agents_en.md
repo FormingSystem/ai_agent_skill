@@ -10,7 +10,7 @@ translation_of: agents
 
 # Chapter 1\_AI_Agent_Skill_contributor_instructions
 
-[简体中文](AGENTS.md) | **English**
+> **Language / 语言** · [← 简体中文](AGENTS.md) · **English (current)**
 
 Before editing, verify the complete user-selected path and its Git root. Default to the currently open project folder. Explain path conflicts before proceeding, and never continue in an old copy with the same name. Read these instructions, the [README](readme_en.md), [architecture](governance/architecture/repository_information_architecture_en.md), and [Git rules](governance/conventions/git_guide_en.md).
 
@@ -39,4 +39,8 @@ Keep the existing `main` mainline and integrate only validated fast-forward chan
 
 ## 1.5\_Bilingual_reading
 
-The README, contribution guide, contributor instructions, architecture, Git guide, all skill instructions, and all references have Chinese and English versions linked in both directions. Update corresponding versions together when requirements, commands, or directory boundaries change. English headings use `Chapter N` and the same numeric hierarchy; retain escaped underscores. English translation filenames use `_en.md`, with unique IDs and `translation_of` pointing to the original ID. Translations express the same policy and are not separate runtime skill registrations. Chinese and English pages link to content in the same language; only explicit language switches cross languages. Register every pair in `scripts/translation_registry.json`. Repository checks verify full coverage, content hashes, language switches, and language-local links. Review both versions before explicitly updating hashes; never use automatic hash refreshes to hide missing translations. Preserve actual code, commands, identifiers, and third-party source names.
+The README, contribution guide, contributor instructions, architecture, Git guide, all skill instructions, and all references have Chinese and English versions with prominent language navigation beneath the title and at the end, identifying the current language and linking directly to the same page in the other language. Update corresponding versions together when requirements, commands, or directory boundaries change. English headings use `Chapter N` and the same numeric hierarchy; retain escaped underscores. English translation filenames use `_en.md`, with unique IDs and `translation_of` pointing to the original ID. Translations express the same policy and are not separate runtime skill registrations. Chinese and English pages link to content in the same language; only explicit language switches cross languages. Register every pair in `scripts/translation_registry.json`. Repository checks verify full coverage, content hashes, language switches, and language-local links. Review both versions before explicitly updating hashes; never use automatic hash refreshes to hide missing translations. Preserve actual code, commands, identifiers, and third-party source names.
+
+---
+
+> **Language / 语言** · [← 简体中文](AGENTS.md) · **English (current)**

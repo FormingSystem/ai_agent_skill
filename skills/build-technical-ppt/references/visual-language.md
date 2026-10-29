@@ -1,6 +1,6 @@
 # 图示、配色、封面与页脚
 
-**简体中文** | [English](visual-language_en.md)
+> **语言 / Language** · **简体中文（当前）** · [English →](visual-language_en.md)
 
 ## 保留已有设计
 
@@ -71,3 +71,7 @@ Markdown 文字、行内代码和语法高亮默认跟随阅读器主题，不�
 - 只对署名关闭拼写检查；红色拼写波浪线、形状边线与截图人工标记先区分，不能为了署名关闭全篇校对或误删用户批注。
 
 其他作者、其他品牌和用户明确要求保留的水印按其模板，不自动添加 lizhaojun。
+
+---
+
+> **语言 / Language** · **简体中文（当前）** · [English →](visual-language_en.md)

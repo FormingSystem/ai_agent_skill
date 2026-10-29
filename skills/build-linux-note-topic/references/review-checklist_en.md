@@ -1,6 +1,6 @@
 # Topic Review Checklist
 
-[简体中文](review-checklist.md) | **English**
+> **Language / 语言** · [← 简体中文](review-checklist.md) · **English (current)**
 
 First select the applicable items according to the responsibilities of this document: continuous textbook check to promote understanding, reference page check for query completeness, historical record check for source and current boundaries, skill check for execution rules and reference consistency. Hardware, concurrency, life cycle or experimental requirements that are not covered are not made up of fictional materials; there must be a practical reason for inapplicability and cannot be used to skip the explanations undertaken in this article.
 
@@ -260,3 +260,7 @@ Follow [Independent explanation and official data traceability](official_source_
 - [ ] The reader is able to use the established model to explain a load, configuration, platform, or failure condition that has not been stated verbatim.
 - [ ] The reader can indicate the constraints required for the inference to hold, and what source code, experiments, logs, traces, or waveforms are needed to verify it.
 - [ ] Topic completion standards are based on definition, causal chain, self-consistency, boundaries, and ability to continue reasoning, rather than length, knowledge points, source code, or number of diagrams.
+
+---
+
+> **Language / 语言** · [← 简体中文](review-checklist.md) · **English (current)**

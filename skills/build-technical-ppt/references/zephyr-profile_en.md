@@ -1,6 +1,6 @@
 # Zephyr + UCRT64 tutorial project conventions
 
-[简体中文](zephyr-profile.md) | **English**
+> **Language / 语言** · [← 简体中文](zephyr-profile.md) · **English (current)**
 
 Only used when maintaining the user's set of Zephyr tutorials. According to the repository document finalized for this session and checked on 2026-10-07, the current AGENTS.md and topic description are still read when using it. The following paths, versions, and issue numbers are project conventions, not default values ​​for other PPTs, nor are they permanently valid upstream facts.
 
@@ -84,3 +84,7 @@ Compilation tutorials must have boards and applications that are truly supported
 If the current entry still exists, use `slides/build.py --deck <当前章号> sync` to synchronize the original source after saving the PPT, then use `build --output <候选文件>` to rebuild and compare ZIP parts one by one. Read the actual script help and README first, and do not display the angle bracket placeholder commands as a reader experiment that can be directly copied.
 
 The data check is `learning/check_docs.py`, and the PPT native structure check is `slides/test_build.py`. They are accepted separately from PowerPoint rendering and content independent reading review. Update the topic VALIDATION.md and `project-docs/porting-status.md` by project AGENTS.md to clarify whether this round actually configures, compiles or operates the hardware.
+
+---
+
+> **Language / 语言** · [← 简体中文](zephyr-profile.md) · **English (current)**

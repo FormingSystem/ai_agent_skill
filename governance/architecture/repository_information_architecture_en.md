@@ -10,7 +10,7 @@ translation_of: governance.architecture.repository_information_architecture
 
 # Chapter 1\_Skill_repository_information_architecture
 
-[简体中文](repository_information_architecture.md) | **English**
+> **Language / 语言** · [← 简体中文](repository_information_architecture.md) · **English (current)**
 
 ## 1.1\_One_source_per_responsibility
 
@@ -42,3 +42,7 @@ The synchronization program, tests, commit hook, and template reuse linux-note i
 ## 1.4\_Language_views
 
 Chinese repository guides and their `_en.md` English counterparts express the same requirements. Each translation has its own stable ID and a `translation_of` field identifying the original. Both pages link to each other, and changes to instructions and commands update both views. Skill runtime files remain in `skills/` with one registry entry per skill; reading translations do not create additional executable packages. Skill instructions and all references also have paired bodies: `SKILL.md` is the Chinese entry and `SKILL_en.md` is the English reading entry. Shared scripts and agent configuration have one implementation, with bilingual interface descriptions; translations are synchronized with the package. The translation registry records every page pair and its reviewed hashes, covering all repository Markdown and language-local navigation.
+
+---
+
+> **Language / 语言** · [← 简体中文](repository_information_architecture.md) · **English (current)**

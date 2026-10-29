@@ -1,6 +1,6 @@
 # Refined requirements for repository AI topics
 
-[简体中文](repository-topic-requirements.md) | **English**
+> **Language / 语言** · [← 简体中文](repository-topic-requirements.md) · **English (current)**
 
 ## Contents
 
@@ -227,3 +227,7 @@ These historical terms can still be used as templates for specific manuscripts, 
 - [ ] Tables, figures, stages, and evidence indexes each answer a different question, without using element stacking or tautology to pretend to be depth of content.
 - [ ] Only the scope of typesetting, structural adjustment or content modification is consistent with this user authorization.
 - [ ] Titles, Metadata, Links, Mermaid and `git diff --check` have been verified or accurately stated restrictions.
+
+---
+
+> **Language / 语言** · [← 简体中文](repository-topic-requirements.md) · **English (current)**

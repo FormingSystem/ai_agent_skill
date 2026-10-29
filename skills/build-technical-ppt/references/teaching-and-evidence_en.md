@@ -1,6 +1,6 @@
 # Explanation, basis and executable examples
 
-[简体中文](teaching-and-evidence.md) | **English**
+> **Language / 语言** · [← 简体中文](teaching-and-evidence.md) · **English (current)**
 
 ## Establish understanding first, then go into details
 
@@ -79,3 +79,7 @@ When there is a "new practice board" and an "actual target board for this time",
 Re-read from the first operation without relying on the implicit knowledge in the author's mind: can you find the file currently mentioned; can you identify the command or configuration; can you explain the basis for choosing this version; can you connect the input to the reader and the output; can you determine whether it was not downloaded, not found, not included in the build, or running abnormally after failure.
 
 If readers still need to search the entire repository, guess file sources, or splice screenshots by themselves, fix the text. Filling in a variable table, posting a bunch of official links, or claiming "the video will tell you" cannot replace this fix.
+
+---
+
+> **Language / 语言** · [← 简体中文](teaching-and-evidence.md) · **English (current)**

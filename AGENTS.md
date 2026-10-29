@@ -9,7 +9,7 @@ domains:
 
 # 第1章\_AI_Agent_Skill_项目上下文
 
-**简体中文** | [English](agents_en.md)
+> **语言 / Language** · **简体中文（当前）** · [English →](agents_en.md)
 
 修改前核对用户指定的完整路径及 Git 根目录；默认使用当前打开的项目文件夹。路径冲突先说明，禁止在同名旧副本中继续操作。先读本文件、[README](README.md)、[信息架构](governance/architecture/repository_information_architecture.md) 和 [Git 规范](governance/conventions/git_guide.md)。
 
@@ -38,4 +38,8 @@ domains:
 
 ## 1.5\_中英文阅读
 
-README、贡献指南、协作规则、信息架构、Git 规范、全部技能主指令与参考文档均提供中英文版本，并双向链接。需求、命令或目录边界变化时，同步更新对应译文。英文标题使用 `Chapter N` 和同级数字序号，下划线仍转义；英文译文文件采用 `_en.md` 后缀、独立稳定 ID，并以 `translation_of` 指向原文 ID。译文表达同一套规则，不注册第二套运行技能。中文和英文页面各自链接本语言正文，仅显式语言切换跨语言。每一对文档登记于 `scripts/translation_registry.json`；仓库检查验证全量覆盖、内容摘要、语言切换与语言内跳转。复核原文和译文后显式更新摘要，不用自动更新掩盖漏译。共用代码、命令、标识符和第三方来源不伪造译名。
+README、贡献指南、协作规则、信息架构、Git 规范、全部技能主指令与参考文档均提供中英文版本，并在标题下与文末放置醒目的双向语言导航，标明当前语言并直达同篇译文。需求、命令或目录边界变化时，同步更新对应译文。英文标题使用 `Chapter N` 和同级数字序号，下划线仍转义；英文译文文件采用 `_en.md` 后缀、独立稳定 ID，并以 `translation_of` 指向原文 ID。译文表达同一套规则，不注册第二套运行技能。中文和英文页面各自链接本语言正文，仅显式语言切换跨语言。每一对文档登记于 `scripts/translation_registry.json`；仓库检查验证全量覆盖、内容摘要、语言切换与语言内跳转。复核原文和译文后显式更新摘要，不用自动更新掩盖漏译。共用代码、命令、标识符和第三方来源不伪造译名。
+
+---
+
+> **语言 / Language** · **简体中文（当前）** · [English →](agents_en.md)

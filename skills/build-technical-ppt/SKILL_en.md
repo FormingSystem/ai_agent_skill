@@ -5,7 +5,7 @@ description: "Make, rewrite, split and repair technical tutorial PPT for beginne
 
 # Technical tutorial PPT production
 
-[简体中文](SKILL.md) | **English**
+> **Language / 语言** · [← 简体中文](SKILL.md) · **English (current)**
 
 Use this English version and its English references for English-language tasks. Respond in the language requested by the user.
 
@@ -58,3 +58,7 @@ Follow [Acceptance Process](references/revision-and-delivery_en.md) to check beg
 Formal documents, supporting MD, notes, navigation, command materials and reconstruction sources are synchronized according to the scope of this impact. Valid export does not mean that PowerPoint has no repair prompts, successful rendering does not mean that the experiment has passed, and the old build log does not mean that the current round of actual measurement. Describe the true scope of verification and do not replace page-by-page reading with automated checks.
 
 When encountering global feedback, implement it into all affected official materials; you cannot just modify the rules or dialogue responses. When the same problem occurs again, check the current round of execution and acceptance omissions, and do not blame the lack of execution of existing rules on skills.
+
+---
+
+> **Language / 语言** · [← 简体中文](SKILL.md) · **English (current)**

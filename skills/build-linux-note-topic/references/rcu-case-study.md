@@ -1,6 +1,6 @@
 # RCU 案例：可复用的设计决策
 
-**简体中文** | [English](rcu-case-study_en.md)
+> **语言 / Language** · **简体中文（当前）** · [English →](rcu-case-study_en.md)
 
 把仓库中的 RCU 专题作为方法的具体案例，而不是机械复制的模板。它的权威入口是 `knowledge/linux/synchronization_and_asynchrony/synchronization/rcu/大纲.md`。
 
@@ -195,3 +195,7 @@ RCU 专题持续引导读者的原因不是标题格式，而是未决问题在�
 - P11 只解决 callback 何时具备执行资格，P12 再解决何时以及由谁实际执行。
 
 应用到其他专题时保持“一问一增量”：先让当前模型完整成立，再用最小反例暴露一个缺口，只引入解决该缺口所需的状态或路径，最后用源码或实验兑现。不要在问题出现以前提前罗列成熟实现的全部组件。
+
+---
+
+> **语言 / Language** · **简体中文（当前）** · [English →](rcu-case-study_en.md)

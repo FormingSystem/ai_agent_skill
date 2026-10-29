@@ -5,7 +5,7 @@ description: "审查、开发、重构、安全加固、测试或记录 F:\\git_
 
 # Loop 桌面工作台开发
 
-**简体中文** | [English](SKILL_en.md)
+> **语言 / Language** · **简体中文（当前）** · [English →](SKILL_en.md)
 
 For English-language tasks, follow [the English instructions](SKILL_en.md) and their English references. Respond in the language requested by the user.
 
@@ -41,3 +41,7 @@ For English-language tasks, follow [the English instructions](SKILL_en.md) and t
 4. 审查完整差异中的旧实现导入、绝对路径、协议偏移、无界分配、缺失的运行时校验、生成产物和不准确文档。
 5. 只根据实际观察的命令与证据更新 `implementation_status.md`；未验证的平台或发布关卡继续保持未完成。
 6. 未经用户明确要求，不暂存、提交、推送、安装系统运行时、删除旧数据或用户数据，也不更新记忆。
+
+---
+
+> **语言 / Language** · **简体中文（当前）** · [English →](SKILL_en.md)

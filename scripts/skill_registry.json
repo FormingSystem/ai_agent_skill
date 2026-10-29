@@ -24,6 +24,12 @@
       "source": "skills/develop-typora-code",
       "mirror": "codex_home/skills/develop-typora-code",
       "direction": "repository_to_codex"
+    },
+    {
+      "name": "maintain-bilingual-repository",
+      "source": "skills/maintain-bilingual-repository",
+      "mirror": "codex_home/skills/maintain-bilingual-repository",
+      "direction": "repository_to_codex"
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Continuous Reading and Anti-Formalist Acceptance
 
-[简体中文](reader_continuity_review.md) | **English**
+> **Language / 语言** · [← 简体中文](reader_continuity_review.md) · **English (current)**
 
 The thematic design must pass both **content correctness** and**continuous reading** two types of acceptance. Table of contents, links, tables, diagrams, source code symbols and version information are only means of expression or evidence and cannot replace readers' modeling along the text. When any of the following situations occurs, even if all structural audits pass, the chapter will still be judged to be unqualified:
 
@@ -80,3 +80,7 @@ If two representations answer the same question and do not add new judgment abil
 ## Cold reading and retelling access control
 
 The final review is based on the declared reader base and independent reading review of previous chapters, without checking the author's blueprint or relying on temporary jumps to fill holes. Check whether the key concepts can be used to explain phenomena and predict results, and then retell why this chapter continues the previous chapter, what problems it solves, how to draw conclusions, and what is left to continue learning. Also check why adjacent paragraphs appear in sequence, whether there are questions worth predicting before the experiment, and whether the answers have derivation rather than just the results. If the retelling is only the file name and field name, or a large number of unknown premises must be filled in before continuing to rewrite. Self-independent reading review cannot be called trial reading with real readers, and automated scripts cannot be used to validate the reading experience.
+
+---
+
+> **Language / 语言** · [← 简体中文](reader_continuity_review.md) · **English (current)**

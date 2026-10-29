@@ -1,6 +1,6 @@
 # Keep modifications, synchronization and acceptance
 
-[简体中文](revision-and-delivery.md) | **English**
+> **Language / 语言** · [← 简体中文](revision-and-delivery.md) · **English (current)**
 
 ## The latest saved draft is the baseline
 
@@ -52,3 +52,7 @@ Complete the actual file modifications within the scope of authorization, and th
 Save the maintenance records of "user comments, implementation location, and verification scope" and retain the source of the comments. Only update the repository AGENTS.md and write agreement and status documents when required by the project agreement; do not change global skills, irrelevant configurations or long-term memory without authorization. The skill creation/update itself occurs upon explicit user request.
 
 Recording platforms that are not running, native acceptance that cannot be performed, and experiments that have not yet been verified cannot be used as the results of this round based on historical success. The author's test logs or native maintenance processes are not included in the PPT and notes for readers, and the maintenance records are left in the agreed location of the project.
+
+---
+
+> **Language / 语言** · [← 简体中文](revision-and-delivery.md) · **English (current)**

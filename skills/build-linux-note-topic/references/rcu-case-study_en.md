@@ -1,6 +1,6 @@
 # RCU Case: Reusable Design Decisions
 
-[简体中文](rcu-case-study.md) | **English**
+> **Language / 语言** · [← 简体中文](rcu-case-study.md) · **English (current)**
 
 Treat the RCU topics in the repository as concrete examples of the approach, not as templates for mechanical replication. Its authoritative entry is `knowledge/linux/synchronization_and_asynchrony/synchronization/rcu/大纲.md`.
 
@@ -195,3 +195,7 @@ What keeps readers engaged in RCU special topics is not the format of the titles
 - P11 only solves when the callback is eligible for execution, and P12 then solves when and who actually executes it.
 
 When applying to other topics, maintain the "one question, one increment" approach: first let the current model be completely established, then use the smallest counterexample to expose a gap, only introduce the state or path required to solve the gap, and finally use source code or experiments to realize it. Don't list all the components of a mature implementation in advance before problems arise.
+
+---
+
+> **Language / 语言** · [← 简体中文](rcu-case-study.md) · **English (current)**

@@ -1,6 +1,6 @@
 # 内核源码证据参考
 
-**简体中文** | [English](source-evidence_en.md)
+> **语言 / Language** · **简体中文（当前）** · [English →](source-evidence_en.md)
 
 ## 1. 建立基线
 
@@ -195,3 +195,7 @@ research/source_reading/<topic>/
 6. 无告警结论所依赖的配置、检查器有效性、事件接入和路径覆盖。
 
 同一个检查器被多个子系统复用时，检查器核心状态与查询实现在检查器源码专题唯一展开；子系统只展开自己的虚拟身份、适配宏和调用条件，并双向使用 Typora 精确标题锚点链接。
+
+---
+
+> **语言 / Language** · **简体中文（当前）** · [English →](source-evidence_en.md)

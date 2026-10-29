@@ -1,6 +1,6 @@
 # Lockdep 案例：动态验证机制的状态分层
 
-**简体中文** | [English](lockdep-case-study_en.md)
+> **语言 / Language** · **简体中文（当前）** · [English →](lockdep-case-study_en.md)
 
 本案例来自仓库的独立 Lockdep 专题：稳定入口为 `knowledge/linux/synchronization_and_asynchrony/synchronization/lockdep/大纲.md`，版本源码入口为 `research/source_reading/lockdep/navigation/P01_Linux_6.12_Lockdep源码导读.md`。它补充 RCU 案例中较少展开的 **动态检查器** 写作方法，不是要求所有专题复刻 Lockdep 的文件数量或字段。
 
@@ -111,3 +111,7 @@ Lockdep 专题做全量信息同步时还要沿发现链复核：同步总纲与
 - [ ] 无告警结论同时记录启用状态、检查器有效性和覆盖范围。
 - [ ] 检查机制没有被写成功能保证，功能契约没有因检查关闭而消失。
 - [ ] 跨专题的具体源码实现只有一个权威讲解标题，并使用 Typora 精确锚点互链。
+
+---
+
+> **语言 / Language** · **简体中文（当前）** · [English →](lockdep-case-study_en.md)

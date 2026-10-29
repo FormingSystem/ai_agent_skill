@@ -1,6 +1,6 @@
 # Thematic design reference
 
-[简体中文](topic-design.md) | **English**
+> **Language / 语言** · [← 简体中文](topic-design.md) · **English (current)**
 
 ## Contents
 
@@ -382,3 +382,7 @@ The completion standard is not length, knowledge points, source code or number o
 - Describe what source code, experimental or observational evidence is needed to confirm the inference.
 
 Whether the final acceptance definition is clear, whether the causal chain is closed, whether the model is self-consistent, whether the dynamic process is complete, whether the hierarchical mapping is clear, whether the boundaries are operable, and whether the model supports continued reasoning.
+
+---
+
+> **Language / 语言** · [← 简体中文](topic-design.md) · **English (current)**

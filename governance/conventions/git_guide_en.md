@@ -10,7 +10,7 @@ translation_of: governance.conventions.git_guide
 
 # Chapter 1\_Git_collaboration_commits_and_releases
 
-[简体中文](git_guide.md) | **English**
+> **Language / 语言** · [← 简体中文](git_guide.md) · **English (current)**
 
 ## 1.1\_Purpose
 
@@ -158,3 +158,7 @@ Use date-based release tags such as `ai_agent_skill-v2026.10`. Complete content,
 Do not commit temporary test outputs, editor caches, build artifacts, `.local`, `node_modules`, `dist`, logs, credentials, access tokens, or regenerable intermediate files. Avoid machine-specific absolute paths in long-lived technical evidence. An explicitly agreed discovery path in `AGENTS.md` is an environment hint, not source identity, and does not justify embedding local paths in evidence.
 
 Do not import large materials with unverified provenance or authorization, or isolated experiments without an entry guide, environment description, and verification conclusions.
+
+---
+
+> **Language / 语言** · [← 简体中文](git_guide.md) · **English (current)**

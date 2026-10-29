@@ -5,7 +5,7 @@ description: "Create, extend, rewrite, reorganize or format technical books and 
 
 # Building linux-note technical books and topics
 
-[简体中文](SKILL.md) | **English**
+> **Language / 语言** · [← 简体中文](SKILL.md) · **English (current)**
 
 Use this English version and its English references for English-language tasks. Respond in the language requested by the user.
 
@@ -268,3 +268,7 @@ There can only be one final destruction protocol per allocation. Do not imply th
 ## Refactor, verify and deliver
 
 Before each task of this skill is delivered, you must read and execute [Refactor, Verify, and Deliver](references/delivery_validation_en.md) in full, save the baseline as authorized, migrate the content in full, synchronize the real caller, run length, structure, continuous reading and terminology auditing, and applicable content conservation checks. Script reports require manual judgment and cannot replace independent reading review; accurately report performed and unexecuted verifications. `apply_patch` is used for editing and shall not be staged or committed without the explicit request of the user.
+
+---
+
+> **Language / 语言** · [← 简体中文](SKILL.md) · **English (current)**

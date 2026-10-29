@@ -5,7 +5,7 @@ from pathlib import Path
 import tempfile
 import unittest
 
-from check_translations import check_translations, content_hash, skill_pair_structure
+from check_translations import check_translations, content_hash, skill_pair_structure, language_navigation, navigation_issues
 from update_translation_registry import update_reviewed
 
 
@@ -22,9 +22,12 @@ class translations_test(unittest.TestCase):
         self.root = Path(self.temporary.name)
         (self.root / "scripts").mkdir()
         self.files = ["a.md", "a_en.md", "b.md", "b_en.md"]
-        contents = ["[English](a_en.md)\n[正文](b.md)\n", "[中文](a.md)\n[Body](b_en.md)\n", "[English](b_en.md)\n", "[中文](b.md)\n"]
-        for name, text in zip(self.files, contents):
-            (self.root / name).write_text(text, encoding="utf-8")
+        for name in self.files:
+            english = name.endswith("_en.md")
+            other = name.replace("_en.md", ".md") if english else name.replace(".md", "_en.md")
+            nav = language_navigation(self.root / name, self.root / other, "en" if english else "zh")
+            body = "[Body](b_en.md)" if english else "[正文](b.md)"
+            (self.root / name).write_text(f"# Title\n\n{nav}\n\n{body}\n\n{nav}\n", encoding="utf-8")
         self.pairs = [{"zh": stem + ".md", "en": stem + "_en.md"} for stem in ("a", "b")]
         self.save()
 
@@ -45,9 +48,10 @@ class translations_test(unittest.TestCase):
         self.assertTrue(check_translations(self.root, self.files))
 
     def test_english_navigation_cannot_fall_back_to_chinese(self):
-        (self.root / "a_en.md").write_text("[中文](a.md)\n[Body](b.md)\n", encoding="utf-8")
+        path = self.root / "a_en.md"
+        path.write_text(path.read_text(encoding="utf-8").replace("[Body](b_en.md)", "[Body](b.md)"), encoding="utf-8")
         self.save()
-        self.assertTrue(check_translations(self.root, self.files))
+        self.assertEqual(check_translations(self.root, self.files), ["导航跨语言：a_en.md -> b.md"])
 
     def test_missing_switch(self):
         (self.root / "a_en.md").write_text("[Body](b_en.md)\n", encoding="utf-8")
@@ -55,9 +59,10 @@ class translations_test(unittest.TestCase):
         self.assertTrue(check_translations(self.root, self.files))
 
     def test_translator_spacing_cannot_hide_links(self):
-        (self.root / "a_en.md").write_text("[中文](a.md)\n[Body] (b_en.md)\n", encoding="utf-8")
+        path = self.root / "a_en.md"
+        path.write_text(path.read_text(encoding="utf-8").replace("[Body](", "[Body] ("), encoding="utf-8")
         self.save()
-        self.assertTrue(check_translations(self.root, self.files))
+        self.assertEqual(check_translations(self.root, self.files), ["Markdown 链接被空白拆开：a_en.md"])
 
     def test_duplicate_pair(self):
         self.pairs.append(dict(self.pairs[0]))
@@ -65,8 +70,8 @@ class translations_test(unittest.TestCase):
         self.assertTrue(check_translations(self.root, self.files))
 
     def test_explicit_review_updates_pair(self):
-        with (self.root / "a_en.md").open("a", encoding="utf-8") as stream:
-            stream.write("Reviewed clarification.\n")
+        path = self.root / "a_en.md"
+        path.write_text(path.read_text(encoding="utf-8").replace("[Body]", "Reviewed clarification.\n\n[Body]"), encoding="utf-8")
         update_reviewed(self.root, ["a.md"])
         self.assertEqual(check_translations(self.root, self.files), [])
 
@@ -76,3 +81,20 @@ class translations_test(unittest.TestCase):
         with self.assertRaises(ValueError):
             update_reviewed(self.root, ["a.md", "missing.md"])
         self.assertEqual(registry.read_bytes(), before)
+
+    def test_body_link_is_not_visible_navigation(self):
+        path = self.root / "a.md"
+        path.write_text("# Title\n\nProse mentions [English](a_en.md).\n", encoding="utf-8")
+        self.assertEqual(len(navigation_issues(path, self.root / "a_en.md", "zh")), 2)
+
+    def test_footer_cannot_switch_to_another_topic(self):
+        path = self.root / "a.md"
+        text = path.read_text(encoding="utf-8")
+        last = text.rfind("a_en.md")
+        path.write_text(text[:last] + text[last:].replace("a_en.md", "b_en.md", 1), encoding="utf-8")
+        self.assertEqual(len(navigation_issues(path, self.root / "a_en.md", "zh")), 1)
+
+    def test_front_matter_does_not_hide_header_navigation(self):
+        path = self.root / "a.md"
+        path.write_text("---\ntitle: Example\n---\n\n" + path.read_text(encoding="utf-8"), encoding="utf-8")
+        self.assertEqual(navigation_issues(path, self.root / "a_en.md", "zh"), [])

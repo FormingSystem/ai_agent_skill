@@ -10,7 +10,7 @@ translation_of: readme
 
 # Chapter 1\_AI_Agent_Skill
 
-[简体中文](README.md) | **English**
+> **Language / 语言** · [← 简体中文](README.md) · **English (current)**
 
 This repository maintains custom Codex skills together with their scripts, references, and agent configuration. Edit the repository source; the installation directory is a runtime copy. Built-in system skills and third-party plugins are outside this repository's scope.
 
@@ -47,6 +47,7 @@ python scripts/sync_skills.py check
 | [build-technical-ppt](skills/build-technical-ppt/SKILL_en.md) | Create and revise technical tutorial presentations and companion Markdown. |
 | [develop-loop-desktop](skills/develop-loop-desktop/SKILL_en.md) | Develop the Loop desktop workstation. |
 | [develop-typora-code](skills/develop-typora-code/SKILL_en.md) | Develop the standalone TyporaCode project. |
+| [maintain-bilingual-repository](skills/maintain-bilingual-repository/SKILL_en.md) | Maintain complete bilingual content, page switches, and language-local navigation. |
 
 Project-specific skills require their target projects and dependencies. Recheck environment hints against the directory the user has actually selected.
 
@@ -66,3 +67,7 @@ File management follows linux-note's single-source ownership, responsibility-bas
 ## 1.4\_License
 
 The [GNU General Public License, version 2](LICENSE), is copied from linux-note. Preserve provenance and existing copyright notices. The GPLv3 license in the remote initialization commit was replaced as requested during migration; that commit remains in history.
+
+---
+
+> **Language / 语言** · [← 简体中文](README.md) · **English (current)**

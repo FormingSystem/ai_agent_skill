@@ -5,7 +5,7 @@ description: Review, implement, refactor, secure, test, or document the Loop Mar
 
 # Develop Loop Desktop
 
-[简体中文](SKILL.md) | **English**
+> **Language / 语言** · [← 简体中文](SKILL.md) · **English (current)**
 
 Use this English version and its English references for English-language tasks. Respond in the language requested by the user.
 
@@ -41,3 +41,7 @@ Use this English version and its English references for English-language tasks. 
 4. Inspect the complete diff for legacy imports, absolute paths, protocol drift, unbounded allocations, missing runtime validation, generated artifacts, and inaccurate documentation.
 5. Update `implementation_status.md` only with commands and evidence actually observed. Leave unverified platform or release gates incomplete.
 6. Do not stage, commit, push, install system runtimes, delete legacy/user data, or update memories unless the user explicitly requests it.
+
+---
+
+> **Language / 语言** · [← 简体中文](SKILL.md) · **English (current)**

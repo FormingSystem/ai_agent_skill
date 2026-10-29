@@ -2,10 +2,32 @@
 
 import hashlib
 import json
+import os
 from collections import Counter
 from pathlib import Path
 import re
 from urllib.parse import unquote, urlsplit
+
+
+def language_navigation(path, counterpart, language):
+    target = os.path.relpath(counterpart, path.parent).replace("\\", "/")
+    if language == "zh":
+        return f"> **语言 / Language** · **简体中文（当前）** · [English →]({target})"
+    return f"> **Language / 语言** · [← 简体中文]({target}) · **English (current)**"
+
+
+def navigation_issues(path, counterpart, language):
+    text = path.read_text(encoding="utf-8-sig")
+    if text.startswith("---\n"):
+        text = text.split("\n---", 1)[-1]
+    lines = [line.strip() for line in text.splitlines() if line.strip()]
+    expected = language_navigation(path, counterpart, language)
+    issues = []
+    if len(lines) < 2 or not lines[0].startswith("# ") or lines[1] != expected:
+        issues.append("标题下缺少可见语言导航或目标错误")
+    if not lines or lines[-1] != expected:
+        issues.append("文末缺少可见语言导航或目标错误")
+    return issues
 
 
 def skill_pair_structure(source, translation):
@@ -72,6 +94,9 @@ def check_translations(root, markdown_files):
             path = root / pair[language]
             if not path.is_file():
                 continue
+            errors.extend(f"{pair[language]}：{issue}" for issue in navigation_issues(
+                path, root / pair[other], language
+            ))
             prose = re.sub(r"^```.*?^```[^\n]*", "", path.read_text(encoding="utf-8-sig"), flags=re.M | re.S)
             prose = re.sub(r"`[^`\n]+`", "", prose)
             if re.search(r"\[[^\]\n]+\]\s+\(", prose):

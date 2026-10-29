@@ -1,6 +1,6 @@
 # 仓库 AI 专题要求提炼
 
-**简体中文** | [English](repository-topic-requirements_en.md)
+> **语言 / Language** · **简体中文（当前）** · [English →](repository-topic-requirements_en.md)
 
 ## 目录
 
@@ -227,3 +227,7 @@ linux-note 不把作者已经知道的专题结构当作读者知识。模块、
 - [ ] 表格、图、阶段和证据索引各自回答不同问题，没有用要素堆叠或同义转写冒充内容深度。
 - [ ] 仅排版、结构调整或内容修改的范围与本次用户授权一致。
 - [ ] 标题、元数据、链接、Mermaid 和 `git diff --check` 已验证或准确说明限制。
+
+---
+
+> **语言 / Language** · **简体中文（当前）** · [English →](repository-topic-requirements_en.md)

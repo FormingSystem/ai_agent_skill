@@ -1,6 +1,6 @@
 # Independent explanation and official information traceability
 
-[简体中文](official_source_reading.md) | **English**
+> **Language / 语言** · [← 简体中文](official_source_reading.md) · **English (current)**
 
 The topic is simultaneously responsible for **independent concept explanation** and**official material reading guidance**. It is not a manual catalog translation, nor is it a self-talk with a bibliography. The learning order is determined by the reader's conceptual dependence, and the query order is provided by the official catalog; the main text is responsible for matching the two.
 
@@ -75,3 +75,7 @@ To organize the table according to the scope used in this section, the register 
 The array or group register should also give the index meaning, element step size, valid range and offset/bit number calculation relationship, and use an actual number in this section to complete the calculation example; if there are implementation quantity, access rights or version restrictions, they should also be given. Do not leave an unexplained `n`. When there is no fixed step size or encoding selection, it is explained according to the real rules, and the linear address formula is not forced.
 
 Copying the full set of unused fields is not forced, but pruning must not omit reserved bits, write conditions, or side effects that determine whether the current operation is legal. The table distinguishes specification definitions, implementation options, platform addresses and teaching examples; source positioning is retained next to the table, and field explanations required for the current judgment are written in the text. Incorporate the register table and calculation examples into the coverage ledger and broken link reading in the previous section, and cannot be skipped because the manual page number has been attached.
+
+---
+
+> **Language / 语言** · [← 简体中文](official_source_reading.md) · **English (current)**

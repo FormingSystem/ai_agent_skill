@@ -9,7 +9,7 @@ domains:
 
 # 第1章\_AI_Agent_Skill
 
-**简体中文** | [English](readme_en.md)
+> **语言 / Language** · **简体中文（当前）** · [English →](readme_en.md)
 
 集中维护自定义 Codex 技能及其脚本、参考资料和代理配置。仓库源码是维护入口，安装目录是运行镜像。系统内置技能和第三方插件不在收录范围内。
 
@@ -46,6 +46,7 @@ python scripts/sync_skills.py check
 | [build-technical-ppt](skills/build-technical-ppt/SKILL.md) | 制作与修订技术教程 PPT 及配套 Markdown |
 | [develop-loop-desktop](skills/develop-loop-desktop/SKILL.md) | Loop 桌面工作台开发 |
 | [develop-typora-code](skills/develop-typora-code/SKILL.md) | TyporaCode 独立工程开发 |
+| [maintain-bilingual-repository](skills/maintain-bilingual-repository/SKILL.md) | 维护完整双语正文、逐页语言切换与语言内导航。 |
 
 项目类技能需要相应项目及其依赖；技能内部的环境提示必须按当前用户指定目录重新核对。
 
@@ -65,3 +66,7 @@ python scripts/sync_skills.py check
 ## 1.4\_许可证
 
 继承 linux-note 的 [GNU General Public License 第 2 版](LICENSE)，保留来源和已有版权声明。远端初始化提交中的 GPLv3 已按迁移要求替换，历史提交保留。
+
+---
+
+> **语言 / Language** · **简体中文（当前）** · [English →](readme_en.md)

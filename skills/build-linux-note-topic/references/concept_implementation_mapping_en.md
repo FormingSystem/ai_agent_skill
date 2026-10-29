@@ -1,6 +1,6 @@
 # Mapping from concept to implementation and input and output
 
-[简体中文](concept_implementation_mapping.md) | **English**
+> **Language / 语言** · [← 简体中文](concept_implementation_mapping.md) · **English (current)**
 
 This reference is used for conversion between specifications and products, contracts and source codes, logical objects and actual carriers. The point is to allow the reader to reconstruct correspondences rather than to memorize an additional set of names. Simple same-level facts do not need to be applied to the complete table diagram; when there is sharing, distributed implementation, or inclusion/connection ambiguity, they must be expanded in place in the text.
 
@@ -156,3 +156,7 @@ Hide the work blueprint and external links, read the text according to the decla
 Answers can only come from written text and factual evidence. Being able to recite "logic and physics are different" but not being able to complete the above tracing is still not clear. This check is a semantic independent reading review, and term scanning, graph syntax checking, and new keywords cannot prove passing.
 
 When readers repeatedly ask "who includes whom, who is connected to whom, and who is configured," they regard this as evidence that the corresponding model has not been established. First, answer the asked questions about the relationship and applicable levels directly, then review the original data and revise the relationship diagram, status points and one round of operations; do not continue to add aliases, repeat "only implement part of it" or use longer disclaimers to maintain the original vague model. The scope of the revision is still subject to the current authorization, and the user's request to check the diagram first cannot be used as a reason to continue to correct the text.
+
+---
+
+> **Language / 语言** · [← 简体中文](concept_implementation_mapping.md) · **English (current)**

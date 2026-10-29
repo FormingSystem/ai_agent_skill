@@ -9,7 +9,7 @@ domains:
 
 # 第1章\_Git\_协作\_提交与发布规范
 
-**简体中文** | [English](git_guide_en.md)
+> **语言 / Language** · **简体中文（当前）** · [English →](git_guide_en.md)
 
 ## 1.1\_目标
 
@@ -221,3 +221,7 @@ git diff --cached
 - 未确认来源或授权的大体积资料。
 - 没有入口说明、环境说明和验证结论的零散实验。
 - 可由构建过程重新生成的中间文件。
+
+---
+
+> **语言 / Language** · **简体中文（当前）** · [English →](git_guide_en.md)

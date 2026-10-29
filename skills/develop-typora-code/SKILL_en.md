@@ -5,7 +5,7 @@ description: "Develop, fix, refactor, or accept TyporaCode workbench enhancement
 
 # TyporaCode development
 
-[简体中文](SKILL.md) | **English**
+> **Language / 语言** · [← 简体中文](SKILL.md) · **English (current)**
 
 Use this English version and its English references for English-language tasks. Respond in the language requested by the user.
 
@@ -115,7 +115,6 @@ When the user requires direct loading of the workbench or reinstallation after h
 
 2026-09-20 Users have clarified that after the official Typora upgrade, the standard enhanced installation will be re-executed, and the native icon will remain unchanged; automatic repair or independent launcher will no longer be recorded as pending. Community plug-in capabilities can be accessed, but the basic workbench UI takes priority and changes to the existing layout are prohibited. Verify the original UI first, and then adapt the plug-in ABI/service; self-naming follows snake_case, and external APIs are forced to remain compatible. The second set of community workbench is not restored or the plug-in blocks the basic interface.
 
-
 If you encounter native style flashing, ribbon overlap or lag, first collect the timing from the head stage according to project `docs/startup_stability.md`; screenshots after ready and fixtures that only load CSS cannot cover the real startup. The first display state is uniformly held by the static head, and the release depends on the ready event. Errors/timeouts must restore the operable interface; fixed delays or animations cannot be used to pretend to be repaired.
 
 The opened sidebar panel only transfers the content and does not call the host hideSidebar/showSidebar; it is separated from the semantics of explicit switching and repeated show of the same panel. Verify the number of calls to the production core, late tasks, cancel generation and owner cleanup, not only verify the final DOM of the double. Non-layout dependencies such as syntax do not block Chrome; long tasks are measured in stages, and the total asynchronous time-consuming is not equal to the main thread blocking. The pressure is stratified by 20/100/1000, and the benchmark measurement avoids concurrent contention with the full test; the private desktop PrintWindow may return old frames, and the observation capability boundary must be noted.
@@ -125,7 +124,6 @@ The opened sidebar panel only transfers the content and does not call the host h
 The basic drawing of the scroll bar follows the R049 contract of projects `workspace_scrollbars.css` and `docs/workspace_interaction.md`, and does not copy width, rounded corners or tri-state colors in the panel. First identify native pseudo-elements, Monaco/xterm DOM sliders and real task progress; retain respective scroll/theme owners and hidden contracts. Chromium's `scrollbar-width:thin` or non-auto colors may bypass WebKit rounded corners, and the calculated values ​​must be verified with actual screenshots; the real pointer coordinates under zoom are converted according to the current zoom, and hit deviations cannot be misjudged as product failure.
 
 The idle display and hiding of the scroll bar is handled as a global behavior according to R049.1 of `docs/workspace_interaction.md`, and you cannot just modify the list in the screenshot. The native overflow area shares the activity state and drawing attributes, Monaco/xterm retains its own display and hiding; maintains the layout placeholder and native dragging. Pseudo element transition cannot just look at the CSS declaration to verify the actual intermediate transparency and pixels. 2026-09-20 The user clearly requires that the scroll bar must fade out, and the scroll bar alone adopts the effective semantics of reduceMotion=off. The system cannot reduce the animation to zero in 800ms; the test must record the actual media conditions and check the native intermediate frames; verify the dynamic/nested area, mouse and keyboard, late animation, destruction and third-party boundaries.
-
 
 First run the target test that can detect this failure, and then execute the project build/check/UI according to the impact. Builds of the same shared bundle occur in series; parallel collaborators have clear file ownership and wiring responsibilities.
 
@@ -240,3 +238,7 @@ R082 bilingual release (2026-09-29): Own documents are maintained as independent
 R071.7 Black Screen Diagnosis (2026-10-02): Users reported that the entire window turned black after 10-20 minutes and 10-50 rounds of normal use for single-screen tex/bash editing and Ctrl+S saving; the actual host has recorded the termination of the rendering process. First distinguish between the main process still being alive, the rendering process surviving and actual drawing, and not considering the existence of the window as not crashing. Keep the exit reason/exit code and original failure record; 100 cycles in a short period of time do not replace at least 20 minutes of scattered operations, and the GPU startup parameters are not equal to the real hardware rendering acceptance. Isolate and compare candidates with the same context, configuration, and cadence; read-only observation of user processes, without closing real windows, injecting code, or modifying drafts for reproduction. Resource cleanup changes cannot be claimed as black screen fixes without a recurring root cause.
 
 - When the user clearly points out that the fault occurred after the installation on the same day, first check the last known normal version → each batch of installation differences to check its own modifications, new configurations, native interface packaging and resident subscriptions, and then select recurrence/isolation experiments. If the version earlier in the day contains suspicious changes, it can only be used as the control group on the same day and cannot be used as the baseline before the failure; unchanged host ASAR or preferences does not mean that the native running behavior has not been changed, and the existing runtime packaging and its linkage need to be listed. Non-recurrence testing is not a substitute for delta review, nor is it used to rule out regressions.
+
+---
+
+> **Language / 语言** · [← 简体中文](SKILL.md) · **English (current)**
