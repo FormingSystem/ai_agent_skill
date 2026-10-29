@@ -9,6 +9,8 @@ domains:
 
 # 第1章\_AI_Agent_Skill
 
+**简体中文** | [English](readme_en.md)
+
 集中维护自定义 Codex 技能及其脚本、参考资料和代理配置。仓库源码是维护入口，安装目录是运行镜像。系统内置技能和第三方插件不在收录范围内。
 
 ## 1.1\_开始使用
@@ -46,6 +48,8 @@ python scripts/sync_skills.py check
 | [develop-typora-code](skills/develop-typora-code/SKILL.md) | TyporaCode 独立工程开发 |
 
 项目类技能需要相应项目及其依赖；技能内部的环境提示必须按当前用户指定目录重新核对。
+
+仓库阅读与维护指南提供中英文版本。技能运行指令和详细参考资料保留原有语言，目前以中文为主，技能链接并非完整英文译本。同名技能只维护一个运行包，阅读译文不新增运行时注册。
 
 ## 1.3\_维护入口
 

@@ -9,6 +9,8 @@ domains:
 
 # 第1章\_AI_Agent_Skill_项目上下文
 
+**简体中文** | [English](agents_en.md)
+
 修改前核对用户指定的完整路径及 Git 根目录；默认使用当前打开的项目文件夹。路径冲突先说明，禁止在同名旧副本中继续操作。先读本文件、[README](README.md)、[信息架构](governance/architecture/repository_information_architecture.md) 和 [Git 规范](governance/conventions/git_guide.md)。
 
 ## 1.1\_职责与权威来源
@@ -26,10 +28,14 @@ domains:
 
 ## 1.3\_编辑与验证
 
-保持中文说明与中文代码注释；技术教学默认面向 C/C++ 开发者。这里复用 Python 审计和同步工具是既有工具链的工程需要，不改变教学语言偏好。修改技能时读齐关联参考资料，保持触发条件准确、步骤可执行、验证边界诚实，不凭自动检查宣称实际任务已通过。
+仓库阅读说明支持中英文并同步维护；技能指令保留原有语言与唯一权威实现，代码注释默认使用中文，技术教学默认面向 C/C++ 开发者。这里复用 Python 审计和同步工具是既有工具链的工程需要，不改变教学语言偏好。修改技能时读齐关联参考资料，保持触发条件准确、步骤可执行、验证边界诚实，不凭自动检查宣称实际任务已通过。
 
 运行 `python scripts/check_repository.py`、`python -m unittest discover -s scripts -p 'test_*.py'` 和 `git diff --check`。按改动运行对应技能脚本；安装后运行 `python scripts/sync_skills.py check`。无法运行的检查明确说明原因。
 
 ## 1.4\_Git_协作
 
 远端主线沿用已有 `main`，仅接收验证通过的快进提交；任务分支默认 `codex/`。提交遵守 linux-note 的中文结果与条目明细格式，启用 `.githooks/commit-msg` 和提交模板。推送前 fetch，出现分叉先核对并处理冲突；禁止强推已交付历史，撤销使用 revert。其他任务的未提交内容不混入本次提交。
+
+## 1.5\_中英文阅读
+
+README、贡献指南、协作规则、信息架构和 Git 规范提供中英文版本，并双向链接。需求、命令或目录边界变化时，同步更新对应译文。英文标题使用 `Chapter N` 和同级数字序号，下划线仍转义；英文译文文件采用 `_en.md` 后缀、独立稳定 ID，并以 `translation_of` 指向原文 ID。译文表达同一套规则，不注册第二套运行技能。尚未翻译的技能指令和详细参考资料应准确标注语言范围，不以英文导航代替正文翻译完成。
