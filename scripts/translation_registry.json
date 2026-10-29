@@ -136,8 +136,8 @@
     {
       "zh": "README.md",
       "en": "readme_en.md",
-      "zh_sha256": "3156d1c0f0b7ce06761561877923c14a805136c57e97fba8f38a2f426e9d4bc7",
-      "en_sha256": "7f188cc9cfeda2539a63aed291af5241e9342f6b13041f02a334411b5bcfeabf"
+      "zh_sha256": "566e4a1e7cf1de7f70c419e5de0323e82b54817961777d98b9537f621ae97ffc",
+      "en_sha256": "f343ad666169466afe22e0d6075dfbd135f16ec7dac4bc80df4b24ddc8251712"
     },
     {
       "zh": "AGENTS.md",
@@ -168,6 +168,18 @@
       "en": "skills/maintain-bilingual-repository/SKILL_en.md",
       "zh_sha256": "b86a335ea26b6ec0384162dd8437696da053b538b25133db0a6a9db79ff1933e",
       "en_sha256": "4e47319d2f15c45d598404114096d2811fc74ba0e15632d100d38b58bd470089"
+    },
+    {
+      "zh": "skills/develop-clean-code/SKILL.md",
+      "en": "skills/develop-clean-code/SKILL_en.md",
+      "zh_sha256": "8f9485ca86cc9b0882f73a5b211392f411648636a33c490da906ec5fc3c47266",
+      "en_sha256": "59f78eeeba5bc1f3dae0f8095e27c993fd33b520bb3b18503c2d9dcfa630dfd7"
+    },
+    {
+      "zh": "skills/develop-clean-code/references/format_and_manual.md",
+      "en": "skills/develop-clean-code/references/format_and_manual_en.md",
+      "zh_sha256": "effd756c4236682a5abbe43dc775d1667fa48a386a1e1d4c2663ac08648f24f8",
+      "en_sha256": "6a3bee7aca10c18a5bb904e2d2e385073b3e3977c346faa99262c8909c16d3fc"
     }
   ]
 }

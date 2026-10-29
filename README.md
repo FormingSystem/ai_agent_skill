@@ -47,6 +47,7 @@ python scripts/sync_skills.py check
 | [develop-loop-desktop](skills/develop-loop-desktop/SKILL.md) | Loop 桌面工作台开发 |
 | [develop-typora-code](skills/develop-typora-code/SKILL.md) | TyporaCode 独立工程开发 |
 | [maintain-bilingual-repository](skills/maintain-bilingual-repository/SKILL.md) | 维护完整双语正文、逐页语言切换与语言内导航。 |
+| [develop-clean-code](skills/develop-clean-code/SKILL.md) | 按 snake_case、短函数、高复用、面向对象和 Doxygen 规范开发 C/C++ 代码 |
 
 项目类技能需要相应项目及其依赖；技能内部的环境提示必须按当前用户指定目录重新核对。
 

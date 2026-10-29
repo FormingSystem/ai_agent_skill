@@ -48,6 +48,7 @@ python scripts/sync_skills.py check
 | [develop-loop-desktop](skills/develop-loop-desktop/SKILL_en.md) | Develop the Loop desktop workstation. |
 | [develop-typora-code](skills/develop-typora-code/SKILL_en.md) | Develop the standalone TyporaCode project. |
 | [maintain-bilingual-repository](skills/maintain-bilingual-repository/SKILL_en.md) | Maintain complete bilingual content, page switches, and language-local navigation. |
+| [develop-clean-code](skills/develop-clean-code/SKILL_en.md) | Develop C/C++ code with snake_case, short functions, reuse, object-oriented design, and Doxygen |
 
 Project-specific skills require their target projects and dependencies. Recheck environment hints against the directory the user has actually selected.
 

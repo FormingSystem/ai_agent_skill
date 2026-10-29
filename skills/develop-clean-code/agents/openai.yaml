@@ -1,0 +1,4 @@
+interface:
+  display_name: "清晰代码开发 / Clean code"
+  short_description: "短函数与可维护设计 / Short functions and maintainable code"
+  default_prompt: "使用 $develop-clean-code 按用户格式、snake_case、50 行函数与 Doxygen 规范开发代码。 Use $develop-clean-code to apply these coding conventions."

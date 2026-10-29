@@ -1,0 +1,78 @@
+BasedOnStyle : WebKit
+IndentWidth : 4
+TabWidth: 4
+UseTab: Never
+AccessModifierOffset : -4
+
+Language : Cpp
+AlignArrayOfStructures : Right
+AlignAfterOpenBracket : Align
+AlignConsecutiveAssignments :
+    Enabled : true
+    AcrossEmptyLines : false
+    AcrossComments : true
+    AlignCompound : true
+
+AlignConsecutiveBitFields :
+    Enabled : true
+    AcrossEmptyLines : true
+    AcrossComments : true
+
+AlignConsecutiveDeclarations :
+    Enabled : true
+    AcrossEmptyLines : false
+    AcrossComments : true
+
+
+AlignConsecutiveMacros :
+    Enabled : true
+    AcrossEmptyLines : false
+    AcrossComments : true
+
+AlignEscapedNewlines : Right
+
+AlignOperands : Align
+BreakBeforeBinaryOperators : true
+AllowAllArgumentsOnNextLine : false
+AllowAllParametersOfDeclarationOnNextLine : false
+AllowShortBlocksOnASingleLine : false
+AllowShortEnumsOnASingleLine : false
+AllowShortFunctionsOnASingleLine : All
+AllowShortIfStatementsOnASingleLine : WithoutElse
+AlwaysBreakAfterReturnType : TopLevelDefinitions
+AlwaysBreakTemplateDeclarations : Yes
+SortIncludes : Never
+SpaceAfterCStyleCast : true
+SpaceAfterTemplateKeyword : true
+
+BreakBeforeBraces : Custom
+BraceWrapping :
+    AfterStruct: false
+    SplitEmptyFunction: false
+    AfterCaseLabel : false
+    SplitEmptyRecord: true
+    BeforeCatch : true
+    AfterControlStatement : Never
+    AfterFunction : true
+    AfterNamespace : true
+    AfterUnion : false
+    BeforeElse : false
+    BeforeWhile : false
+    AfterEnum : false
+    AfterClass : true
+
+BreakConstructorInitializers : BeforeColon
+BreakInheritanceList : AfterComma
+BreakStringLiterals : true
+IndentPPDirectives : BeforeHash
+NamespaceIndentation : Inner
+
+AlignTrailingComments :
+    Kind: Always
+    OverEmptyLines: 1
+
+
+
+ReferenceAlignment : Left
+PointerAlignment : Left
+QualifierAlignment : Right

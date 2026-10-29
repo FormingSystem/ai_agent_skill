@@ -30,6 +30,12 @@
       "source": "skills/maintain-bilingual-repository",
       "mirror": "codex_home/skills/maintain-bilingual-repository",
       "direction": "repository_to_codex"
+    },
+    {
+      "name": "develop-clean-code",
+      "source": "skills/develop-clean-code",
+      "mirror": "codex_home/skills/develop-clean-code",
+      "direction": "repository_to_codex"
     }
   ]
 }
